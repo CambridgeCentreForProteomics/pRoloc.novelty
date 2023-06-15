@@ -1,11 +1,20 @@
 # pRoloc.novelty - temporary repo (under development)
 ### This repo is a temporary repo to allow users to use `noveltyTAGM` method 
-#### Disclaimer: use at your own risk, this is unstable software. Please only use this package if you know what you are doing
+#### Disclaimer: use at your own risk, this is unstable and things may break. Please only use this package if you know what you are doing.
+
+This repo has been created to allow users easy access to the code that is contained in the main `pRoloc` package under the
+`novety` branch. 
+
+The code in this branch contains functions to run the `noveltyTAGM` method as described in Crook et al 2020
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7707549/. More information is also available at https://github.com/ococrook/2019-noveltyTagm
+
+Eventually this repo will be deleted and the `novelty` branch and it's code will be merged into the main branch of `pRoloc`. 
 
 To install this temporary unstable version:
 
 ```
 install.packages("devtools")
+install_github("lgatto/pRoloc")
 install_github("CambridgeCentreForProteomics/pRoloc.novelty", ref = "novelty")
 ```
 
