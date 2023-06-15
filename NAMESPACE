@@ -1,4 +1,4 @@
-useDynLib(pRoloc)
+useDynLib(pRoloc.novelty)
 
 ## Depends
 import(MSnbase)
