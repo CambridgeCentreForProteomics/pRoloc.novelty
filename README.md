@@ -12,6 +12,12 @@ install_github("CambridgeCentreForProteomics/pRoloc.novelty", ref = "novelty")
 All novelty TAGM functions are found with the prefix `tagmNovelty` e.g. `tagmNoveltyTrain`, `tagmNoveltyProcess`, `tagmNoveltyPredict`. 
 Please see `?tagmNoveltyTrain` for more information or open a Github Issue.
 
+Usage
+
+```
+library("pRoloc.novelty")
+```
+
 <br>
 
 [![Build Status](https://travis-ci.org/lgatto/pRoloc.svg?branch=master)](https://travis-ci.org/lgatto/pRoloc) [![codecov.io](https://codecov.io/github/lgatto/pRoloc/coverage.svg?branch=master)](https://codecov.io/github/lgatto/pRoloc?branch=master)
